@@ -3,6 +3,7 @@ import Header from './Components/Header'
 import Footer from './Components/Footer'
 import Home from './Views/Home'
 import About from './Views/About'
+import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div className="relative pb-10 min-h-screen">
