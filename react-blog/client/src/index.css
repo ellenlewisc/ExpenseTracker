@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.icon{
+  font-size: 20px;
+  font-weight: bold;
+}
+.icon:hover{
+  color:black;
+  cursor: pointer;
+}
 .expense{
   margin-bottom: 100px;
 }
