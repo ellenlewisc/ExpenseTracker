@@ -9,8 +9,8 @@ import Footer from './Components/Footer'
 import Home from './Pages/Home'
 import "bootstrap/dist/css/bootstrap.min.css"
 import Register from './Pages/Register'
-import Single from './Pages/Single'
-import Add from './Pages/Add'
+import Category from './Pages/Category'
+import Expense from './Pages/Expense'
 import Login from './Pages/Login'
 const Layout = ()=>{
   return(
@@ -31,12 +31,12 @@ const router = createBrowserRouter([
       element:<Home/>
     },
     {
-      path:"/expense/:id",
-      element:<Single/>
+      path:"/category/",
+      element:<Category/>
     },
     {
-      path:"/add",
-      element:<Add/>
+      path:"/expense",
+      element:<Expense/>
     }
   ]},
   {
